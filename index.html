@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="signupForm" novalidate>
+    <h2>Sign Up</h2>
+
+    <div class="form-group">
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" />
+      <small class="error">სახელი უნდა შეიცავდეს მხოლოდ ასოებს და სივრცეებს.</small>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="text" id="email" />
+      <small class="error">შეიყვანეთ სწორი ელექტრონული ფოსტის მისამართი.</small>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" />
+      <small class="error">პაროლი უნდა იყოს მინიმუმ 8 სიმბოლო.</small>
+    </div>
+
+    <div class="form-group">
+      <label for="confirmPassword">Confirm Password</label>
+      <input type="password" id="confirmPassword" />
+      <small class="error">პაროლები არ ემთხვევა ერთმანეთს.</small>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
